@@ -65,3 +65,4 @@ howManyBelowAverage  a b c
   | (a > round (averageThree a b c) && b < round (averageThree a b c) && c > round (averageThree a b c)) = 1
   | (a > round (averageThree a b c) && b > round (averageThree a b c) && c < round (averageThree a b c)) = 1
   | otherwise = 0
+
